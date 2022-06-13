@@ -1,4 +1,6 @@
-//'use strict';
+require('es6-promise').polyfill();  // імпорт поліфіла для bebel, перед цим його вручну інсталювали
+import 'nodelist-foreach-polyfill';// npm i nodelist-foreach-polyfill ,,, 
+
 import calc from './modules/calc';
 import card from './modules/card';
 import forms from './modules/forms';
